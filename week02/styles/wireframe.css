@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.logo-box{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-box img{
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+
+}
+nav{
+    text-align: center;
+}
+
+    
+
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
+}
