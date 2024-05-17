@@ -61,3 +61,17 @@ footer{
     margin: 0%;
     padding: 0%;
 }
+figcaption{
+    text-align: center;
+}
+.figureflex{
+    display: flex; 
+}
+figure img{
+    width: 200px;
+    height:150px;
+}
+figure{
+    padding: 0;
+    margin: 3px;
+}
