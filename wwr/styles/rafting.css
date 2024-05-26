@@ -19,7 +19,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
-    color: white;
+    color: rgb(245, 241, 241);
 }
 header{
     display: grid;
@@ -76,7 +76,8 @@ h1,h2{
     justify-content: center;
 }
 .para2-container{
-    background-color: #CFD2CD;
+    background-color: #5c784a;
+    color: white;
 }
 .para2{
     display: flex;
@@ -88,7 +89,8 @@ h1,h2{
     margin: 20px;
 }
 .last{
-    background-color: #CFD2CD;
+    background-color: #5c784a;
+    color: white;
 }
 .figureflex{
     display: grid;
@@ -107,7 +109,7 @@ figure{
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
-    background-color:  #03045E;
+    background-color:  #181a93;
     margin: 20px 0px;
     color: white
 }
