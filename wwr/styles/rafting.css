@@ -1,8 +1,4 @@
-@import url("https://font.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap");
-body{
-    font-family: var(--paragraph-font);
-    padding: 20px;
-}
+
 :root{
     --primary-color: #0077B6;
     --secondary-color:#03045E;
@@ -20,6 +16,9 @@ body{
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: rgb(7, 0, 0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 header{
     display: grid;
@@ -53,11 +52,6 @@ header img{
 .header a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-}
-
-h1,h2{
-    display: flex;
-    justify-content: center;
 }
 .footer-container{
     display: flex;
@@ -101,6 +95,4 @@ form{
     margin: 10px;
     padding-bottom: 10px;
 }
-h1,h2,p{
-    text-align: center;
-}
+
