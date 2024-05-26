@@ -13,13 +13,13 @@ body{
     --paragraph-font:"Georgina", serif;
 
     --nav-background-color:#e0f3da;
-    --nav-link-color:#46632a;
+    --nav-link-color:#0a0c02;
     --nav-hover-link-color:#CFD2CD;
     --nav-hover-background-color:#A6A2A2;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
-    color: rgb(245, 241, 241);
+    color: rgb(7, 0, 0);
 }
 header{
     display: grid;
@@ -62,9 +62,9 @@ header img{
     display: flex;
     height: 150px;
     padding: 50px;
-    background-image:linear-gradient(90deg,red,blue,transparent);
+    background-color:rgb(244, 228, 7);
     margin:0px 50px 50px 50px;
-    color: white;
+    color: rgb(7, 0, 0);
 }
 .parabox img{
     width: 100px;
@@ -76,8 +76,8 @@ h1,h2{
     justify-content: center;
 }
 .para2-container{
-    background-color: #5c784a;
-    color: white;
+    background-color:rgb(244, 228, 7);
+    color: rgb(7, 0, 0);
 }
 .para2{
     display: flex;
@@ -89,8 +89,8 @@ h1,h2{
     margin: 20px;
 }
 .last{
-    background-color: #5c784a;
-    color: white;
+    background-color:rgb(244, 228, 7);
+    color: rgb(3, 3, 0);
 }
 .figureflex{
     display: grid;
